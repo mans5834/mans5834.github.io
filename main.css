@@ -18,7 +18,7 @@ header nav{
   justify-content: flex-end;
 }
 header p {
-  padding: 20px;
+  padding: 60px;
   margin: 0;
 }
 
@@ -56,14 +56,14 @@ section .row img {
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
-  color: #fbd1d5;
+  color: #000000;
   text-shadow: none;
   background-color: #ffffff;
 }
 
 .btn.btn-primary:hover {
   color: #ffffff;
-  background-color: #fbd1d5;
+  background-color: #ffffff;
 }
 
 .btn-secondary {
