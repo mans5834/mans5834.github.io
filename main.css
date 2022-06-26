@@ -15,7 +15,7 @@ header h1{
 header nav{
   font-family: 'Roboto';
   align-elements: center;
-  font-weight: 600;
+  font-size: 40px;
   display: flex;
   justify-content: flex-end;
 }
