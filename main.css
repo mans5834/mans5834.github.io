@@ -13,6 +13,7 @@ header h1{
 }
 
 header nav{
+  font-family: 'Roboto';
   display: flex;
   justify-content: flex-end;
 }
