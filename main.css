@@ -53,6 +53,12 @@ header p {
   margin: 0 0 20px;
   color: #fff;
 }
+.jumbotron header{
+  display:flex;
+  background-color: #A1A1A1;
+  background size: cover;
+  height: 80px;
+}
 
 section .row img {
   margin: 0 0 30px;
