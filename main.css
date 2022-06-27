@@ -36,7 +36,7 @@ header p {
   align-items: center;
   background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80");
   background-size: cover;
-  color: #ffffff;
+  color: #A1A1A1;
   height: 700px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
@@ -52,12 +52,6 @@ header p {
 .jumbotron h3 {
   margin: 0 0 20px;
   color: #fff;
-}
-.jumbotron header{
-  display:flex;
-  background-color: #A1A1A1;
-  background size: cover;
-  height: 80px;
 }
 
 section .row img {
