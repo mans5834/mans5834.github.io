@@ -7,6 +7,8 @@ header{
   padding: 20px;
   background-color: #DCDCDC;
   height: 60px;
+  display: flex;
+  align-items: center;
 }
 
 header h1{
