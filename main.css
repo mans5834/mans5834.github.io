@@ -20,6 +20,7 @@ header h2{
 }
 header nav{
   font-family: 'Roboto';
+  display: flex;
   justify-content: flex-end;
 }
 header p {
