@@ -6,6 +6,7 @@ body{
 header{
   padding: 20px;
   background-color: #DCDCDC;
+  background size: cover;
   height: 80px;
 }
 
@@ -66,11 +67,13 @@ section .row img {
   border-radius: 2px;
   border: 0px;
   color: #000000;
+  background-color: #DCDCDC;
   text-shadow: none;
 }
 
 .btn.btn-primary:hover {
   color: #000000;
+  background-color: #DCDCDC;
 }
 
 .btn-secondary {
