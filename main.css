@@ -5,7 +5,7 @@ body{
 
 header{
   padding: 20px;
-  background-color: #DCDCDC;
+  background-color: #A1A1A1;
   background size: cover;
   height: 80px;
 }
@@ -45,7 +45,7 @@ header p {
   font-family: 'Roboto';
   font-weight: 700;
   margin: 0;
-  color: #ADADAD;
+  color: #A1A1A1;
 }
 
 .jumbotron h3 {
@@ -66,17 +66,17 @@ section .row img {
   border-radius: 2px;
   border: 0px;
   color: #000000;
-  background-color: #DCDCDC;
+  background-color: #A1A1A1;
   text-shadow: none;
 }
 
 .btn.btn-primary:hover {
   color: #000000;
-  background-color: #DCDCDC;
+  background-color: #A1A1A1;
 }
 
 .btn-secondary {
-  background-color: #DCDCDC;
+  background-color: #A1A1A1;
   color: #ffffff;
   margin: 0 0 30px;
 }
