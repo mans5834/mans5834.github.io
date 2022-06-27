@@ -5,6 +5,7 @@ body{
 
 header{
   padding: 20px;
+  display: flex;
   background-color: #A1A1A1;
   background size: cover;
   height: 80px;
