@@ -27,7 +27,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('');
+  background-image: url('https://unsplash.com/photos/Q1p7bh3SHj8');
   background-size: cover;
   color: #ffffff;
   height: 500px;
