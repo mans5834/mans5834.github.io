@@ -15,7 +15,6 @@ header h1{
 header nav{
   font-family: 'Roboto';
   align-elements: center;
-  font-size: 40px;
   display: flex;
   justify-content: flex-end;
 }
@@ -30,12 +29,13 @@ header p {
   background-image: url('https://unsplash.com/photos/Q1p7bh3SHj8');
   background-size: cover;
   color: #ffffff;
-  height: 500px;
+  height: 700px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
 .jumbotron h2 {
   font-size: 60px;
+  font-family: 'Roboto';
   font-weight: 700;
   margin: 0;
   color: #fff;
