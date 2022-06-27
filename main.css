@@ -14,7 +14,10 @@ header h1{
   font-weight: 800;
   margin: 0;
 }
-
+header h2{
+  front-weight: 400;
+  font-size: 60px;
+}
 header nav{
   font-family: 'Roboto';
   align-elements: center;
@@ -73,7 +76,7 @@ section .row img {
 }
 
 .btn-secondary {
-  background-color: #E8DFE0;
+  background-color: #DCDCDC;
   color: #ffffff;
   margin: 0 0 30px;
 }
