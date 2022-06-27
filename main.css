@@ -6,6 +6,7 @@ body{
 header{
   padding: 20px;
   background-color: #DCDCDC;
+  height: 60px;
 }
 
 header h1{
@@ -23,7 +24,7 @@ header nav{
   justify-content: flex-end;
 }
 header p {
-  padding: 100px;
+  padding: 20px;
   margin: 0;
 }
 
