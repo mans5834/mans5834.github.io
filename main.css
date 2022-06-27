@@ -26,7 +26,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url(FieldsForWebsite.jpg);
+  background-image: url("https://github.com/mans5834/mans5834.github.io/blob/main/FieldsForWebsite.jpg");
   background-size: cover;
   color: #ffffff;
   height: 700px;
