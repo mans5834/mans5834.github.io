@@ -14,7 +14,8 @@ span{
   font-size: 2em;
 }
 span b{
-  font-size: 50%;
+  font-family: 'Roboto';
+  font-size: 70%;
   font-weight: normal;
 }
 
