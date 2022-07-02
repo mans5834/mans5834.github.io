@@ -10,6 +10,14 @@ body2{
   background-color: #FFFFFF;
 }
 
+span{
+  font-size: 3em;
+}
+span b{
+  font-size: 300%;
+  font-weight: normal;
+}
+
 header{
   padding: 20px;
   background-color: #A1A1A1;
