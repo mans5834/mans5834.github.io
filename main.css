@@ -4,6 +4,11 @@ body{
   background-color: #A1A1A1;
 }
 
+body2{
+  font-family: 'Rubik Moonrocks';
+  font-weight: 400;
+}
+
 span{
   font-size: 2em;
 }
