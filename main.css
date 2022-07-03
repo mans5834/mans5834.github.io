@@ -22,8 +22,6 @@ header{
   padding: 20px;
   background-color: #A1A1A1;
   height: 12vh;
-  display: flex;
-  background-size: cover;
 }
 
 header h1{
