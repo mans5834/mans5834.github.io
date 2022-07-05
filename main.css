@@ -11,8 +11,10 @@ body2{
 }
 
 span{
+  padding: 20px;
   font-size: 2em;
 }
+
 span b{
   font-family: 'Roboto';
   font-size: 70%;
