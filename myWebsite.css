@@ -23,6 +23,8 @@ nav {
    display: flex;
    align-items: center;
    justify-content: space-around;
+   font-family: 'League Gothic';
+   font-size: x-large;
 }
 
 nav ul li{
