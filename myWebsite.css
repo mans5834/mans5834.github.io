@@ -23,14 +23,14 @@ nav {
    display: flex;
    align-items: center;
    justify-content: space-around;
-   font-family: 'League Gothic';
-   font-size: x-large;
 }
 
 nav ul li{
    display: inline-block;
    list-style: none;
    margin: 10px 30px;
+   font-family: 'League Gothic';
+   font-size: x-large;
 }
 
 nav ul li a{
