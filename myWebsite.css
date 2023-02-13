@@ -11,7 +11,7 @@ body {
 
 @media only screen and (max-width: 992px){
    nav ul li{
-      font-size: medium;
+      font-size: Large;
    }
 }
 
