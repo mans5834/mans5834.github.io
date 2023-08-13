@@ -61,7 +61,8 @@ url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1
 .text-box {
    font-family: arial;
    text-align: center;
-   background-color: #148BBB;
+   background-color: #D3E1E7;
+   /*#148BBB*/
    padding-top: 2%;
    padding-bottom: 2%;
 }
@@ -69,7 +70,8 @@ url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1
 .text-box2 {
    font-family: arial;
    text-align: center;
-   background-color: #BE2245;
+   background-color: #D3E1E7;
+   /*#BE2245*/
    padding-top: 2%;
    padding-bottom: 2%;
 }
