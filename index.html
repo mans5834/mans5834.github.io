@@ -1,131 +1,109 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>This is my website</title>
-      <link rel = "stylesheet" href = "myWebsite.css">
-      <link href = "https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
-      <link href = "https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto&display=swap" rel="stylesheet">
-   </head>
-   
-   <body>
-      <div class = "header">
-         <nav>
-            <font style = "font-size: 2vw;" >Ibrahim Mansour</font>
-            <ul>
-               <li><a href = "#top">Home</a></li>
-               <li><a href = "#a">About</a></li>
-               <li><a href = "#r">Resume</a></li>
-               <li><a href = "#c">Projects</a></li>
-            </ul>
-         </nav>
-      </div>
-      
-      <div class = "jumbotron">
-         <font size = "+4"><h1>Welcome</h1></font>
-      </div>
 
-      <div class = "text-boxAbout" id = "a">
-         <img src="IMG_4613.JPG" width = 13% height = auto alt = "Profile Picture">
-         <font size = "+2"><p2 style = "font-size: 3vw;">More About Me</p2><p>Hello, my name is Ibrahim Mansour. As of April 2024 I am a Junior 
-at the University of Idaho studying computer science. I started at the University of 
-Idaho as a finance major because of my interest in business. After the first semester I 
-switched to computer science as I realized my love for technology and curiosity could 
-not be fulfilled fully in finance. My excitement only grew the more I learned about the 
-possibilities in computer science. A particular industry that has caught my attention is 
-fintech. I have read about quantative finance and found it to be quite interesting. 
-Beyond fintech I have not been able to get enough of computer science. I love reading 
-and learning about all things related to computer science. Recently I have read the book 
-How the Internet Happened by Brian McCullogh and I thought it was so interesting how 
-many technology companies came to fruition. <br> <br>
-Computer science has kept me busy for quite 
-some time recently, but I have many other interests. Some of which include woodworking, 
-investing, reading, and spending time with my family and friends. I am very motivated 
-and hope to learn as much as I can from anyone willing to offer me knowledge of any 
-kind. I believe that every bit of information can help produce better ideas and improve 
-my problem solving abilities.</p></font>
-      </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>First Bootstrap Project</title>
+</head>
 
-      <div class = "text-box2" id = "r">
-         <h1>
-            Resume
-         </h1> 
-         <div class = "projects">         
-            <h2>
-               Education
-            </h2>
-            <div class = "projects">
-               <h3>
-                  B.S. Computer Science, University of Idaho | 2021 - 2025 <br>
-                  GPA: 3.69; Dean's List three semesters <br>
-               </h3>
+<body>
+    <nav class="right-side-navbar">
+        <a class="nav-link" href="home.html">Home</a>
+        <a class="nav-link" href="photos.html">Photos</a>
+        <a class="nav-link" href="bio.html">Bio</a>
+        <a class="nav-link" href="blog.html">Blog</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        <div class="row">
+            <div class="column col">
+                <a href="https://www.facebook.com" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                    </svg>
+                </a>
             </div>
 
-            <h2>
-               Skills
-            </h2>
-            <div class = "projects">
-               <h3>
-                  - Based on my abilities and feedback from peers I believe my prominent skills are leadership, critical thinking, communication, curiosity, and adaptability. <br>
-                  - The main programming language I have used and feel I have the most skill with is C++. I do have experience using a few other languages. These languages include C, python, html, CSS, swift, and assembly. <br>
-                  - I have experience with IEC 61131-3 standard programming languages, human machine interface design, and visio.
-               </h3>
+            <div class="column col">
+                <a class="nav-link" href="https://x.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                      </svg>
+                </a>
             </div>
 
-            <h2>
-               Experience
-            </h2>
-            <div class = "projects">
-               <h3>
-                  Schweitzer Engineering Laboratories - Automation Engineering Intern | May 2023 - August 2023 <br> <br>
-                  - Assisted the automation team in solving problems and creating lasting solutions for customers <br>
-                  - Programmed simulators of customer specific technologies and infrastructure <br>
-                  - Contributed to Factory Acceptance Tests <br>
-                  - Created human machine interfaces based on electrical diagrams <br>
-                  - Programmed SEL relays <br>
-                  - Experienced the whole program development life cycle on many projects <br> <br> <br>
-                  Univeristy of Idaho - Supplemental Instruction leader | August 2022 - December 2022 <br> <br>
-                  - Plan and ran study sessions to help University of idaho students pass their College Algebra course. Some sessions had as many as 20-30 people. <br>
-                  - Create challenging and realistic problems to prepare the students while also facilitating group work. <br>
-                  - Work with a wide range of professionals and collaborate on ideas. <br> <br> <br>
-                  Blue Bamboo Business Consulting - Video Editor | June 2021 - August 2021 <br> <br>
-                  - Edited raw footage into a video that fit the direction the client was wanting to go in, developed skills in excel, implemented suggestions from clients and boss. <br> <br> <br>
-                  McDonalds - Crew Member | July 2019 - September 2019 <br> <br>
-                  - Excelled in problem solving, resolved customer concerns, learned a new computer system quickly and used it effectively. <br>
-               </h3>
+            <div class="column col">
+                <a class="nav-link" href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                      </svg>
+                </a>
             </div>
+        </div>
+    </nav>
 
-         </div>
-      </div>
-
-      <div class = "text-box" id = "c">
-         <h1>
-            Projects
-         </h1>
-         <div class = "projects">
-            <h2><a href="https://github.com/mans5834/Python-Trading-Bot\">Python Trading Robot</a></h2>
-            </h2>
-            <div class = "projects">
-               <h3>
-                  Implementing a Python program for executing buy and sell orders based on a defined algorithm.
-               </h3>
+    <div style="padding-left: 80px;" class="container">
+        <br>
+        <br>
+        <h1 style="text-align: center; padding-right: 200px;">Home</h1>
+        <br>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <img src="uidaho1.jpeg" class="image-correction" data-bs-toggle="modal" data-bs-target="#Modal" onclick="showImage(this)">
             </div>
-
-            <h2><a href="https://github.com/mans5834/MorseCodeDecipher">Morse Code Decipher</a></h2>
-            <div class = "projects">
-               <h3>
-                  Created a program in c++ to decipher morse code that did not contain any breaks.
-               </h3>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <img src="uidaho2.jpeg" class="image-correction" data-bs-toggle="modal" data-bs-target="#Modal" onclick="showImage(this)">
             </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <img src="uidaho3.jpeg" class="image-correction" data-bs-toggle="modal" data-bs-target="#Modal" onclick="showImage(this)">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <img src="uidaho4.jpeg" class="image-correction" data-bs-toggle="modal" data-bs-target="#Modal" onclick="showImage(this)">
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <img src="uidaho5.jpeg" class="image-correction" data-bs-toggle="modal" data-bs-target="#Modal" onclick="showImage(this)">
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <img src="uidaho4.jpeg" class="image-correction" data-bs-toggle="modal" data-bs-target="#Modal" onclick="showImage(this)">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-3">
+                <img src="uidaho6.jpeg" class="image-correction" data-bs-toggle="modal" data-bs-target="#Modal" onclick="showImage(this)">
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <img src="uidaho7.jpeg" class="image-correction" data-bs-toggle="modal" data-bs-target="#Modal" onclick="showImage(this)">
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <img src="uidaho8.jpeg" class="image-correction" data-bs-toggle="modal" data-bs-target="#Modal" onclick="showImage(this)">
+            </div>
+        </div>
+    </div>
 
-            <h2><a href="https://github.com/Makijjb/MAKI-Studio">Unity Game</a></h2>
-            <div class = "projects">
-               <h3>
-                  Created a cooking game in unity.
-               </h3>
-            </div> 
+</div>
+    <!-- Modal -->
+    <div class="modal fade" id="Modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img id="temp" src="" alt="modal image" class="img-fluid">
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
-         </div>
-      </div>
-   </body>
-</html>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script>
+    function showImage(image) {
+        var imgSrc = image.src; 
+        document.getElementById('temp').src = imgSrc;
+    }
+</script>
+</body>
