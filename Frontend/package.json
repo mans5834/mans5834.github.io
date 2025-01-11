@@ -1,9 +1,8 @@
 {
-  "homepage": "http://mans5834.github.io/frontend",
-  "name": "frontend",
+  "homepage": "http://mans5834.github.io/Frontend",
+  "name": "Frontend",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://mans5834.github.io/frontend",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
